@@ -12,7 +12,7 @@ class TestExample(unittest.TestCase):
         test_message = 'Test'
         example = Example(test_message)
         ascii_art = example.get_ascii_art()
-        self.assertIn(r' _____         _ ', ascii_art)
+        self.assertIn(r' _+____         _ ', ascii_art)
         self.assertIn(r'|_   _|__  ___| |_ ', ascii_art)
         self.assertIn(r'  | |/ _ \/ __| __|', ascii_art)
         self.assertIn(r'  | |  __/\__ \ |_', ascii_art)
